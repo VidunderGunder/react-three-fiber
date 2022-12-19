@@ -134,6 +134,8 @@ Live demo: https://codesandbox.io/s/icy-tree-brnsm?file=/src/App.tsx
 
 This example relies on react 18 and uses `expo-cli`, but you can create a bare project with their template or with the `react-native` CLI.
 
+Be aware that rendering on the iOS simulator doesn't work, but it will work just fine on real iOS-devices. See [relevant issue](https://github.com/pmndrs/react-three-fiber/issues/2546).
+
 ```bash
 # Install expo-cli, this will create our app
 npm install expo-cli -g
